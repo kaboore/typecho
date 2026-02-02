@@ -26,6 +26,6 @@ $db->addServer(array (
   'password' => 'npg_yUgru1WQiow5 ',
   'charset' => 'utf8',
   'database' => 'neondb',
-  'sslVerify' => trul,
+  'sslVerify' => true,
 ), \Typecho\Db::READ | \Typecho\Db::WRITE);
 \Typecho\Db::set($db);
